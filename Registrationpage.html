@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    #mmm:hover
+    {
+      color:rgba(187, 12, 32, 0.7);
+      border-color:tomato;
+      box-shadow:0 5px 0 7px rgba(100,100,100,0.2);
+    }
+    h1{
+        text-align:center;
+        color:white;
+    }
+    h3,h5{
+        color:white;
+    }
+    body{
+        background-image:linear-gradient( to right,indigo,violet,blue);
+    }
+    </style>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <title>Registration page</title>
+        <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+        </script>
+        </head>
+        <body>
+            <div class="container-fluid">
+            <h1>
+                SIGN UP
+            </h1><br><h3>
+                <form  action="" method="get">
+            <div class="form-group">
+            <label for="aaa">
+                First Name<br></label>
+                <input type="text" name="bbb" id="aaa" placeholder="first name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="ccc">
+                    Last Name<br></label>
+                    <input type="text" name="ddd" id="ccc" placeholder="last name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="eee">
+                    E-mail<br></label>
+                    <input type="email" name="eee" id="eee" placeholder="your e-mail" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="ggg">
+                    Date Of Birth<br></label>
+                    <input type="date" name="hhh" id="ggg" placeholder="dd-mm-yyyy" class="form-control">
+            </div>
+            <label for="iii">
+                Gender<br></h3><h5>
+                <input type="radio" name="iii">Male
+                <input type="radio" name="iii">Female
+                <input type="radio" name="iii">Others
+            </label>
+            <br></h5>
+            <h3><div class="checkbox"><label for="jjj">
+            I agree to terms and conditions <input type="checkbox" id="jjj" name="ttt" required>
+        </label></div>
+            </h3>
+            <h6 align="center">
+            <button type="submit" class="btn btn-success" name="ppp" id="mmm">Submit
+            </button></h6>
+        </form>
+            </div>
+        </body>
+        </html>
